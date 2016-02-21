@@ -1,0 +1,171 @@
+
+
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    background-image: url(../images/fff.jpg);
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+       
+  
+            
+       
+       
+
+}
+body p{
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+#wrapper{
+    width: 1080px;
+    background-color: white;
+    margin:  auto;
+    padding: 10px;
+    border: 5px solid #dedede;
+}
+#banner{
+    border: 5px solid #dedede;
+    height: 200px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+#content-area{
+    float: left;
+    width: 750px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}
+#sidebar{
+ float: right;
+ width: 250px;
+ height: 400px;
+ margin: 20px 10px;
+ padding: 10px;
+ border: 2px solid #E3E3E3;
+ background-image: url(../images/coffee3.png);
+// background-size: cover;
+background-repeat: no-repeat;
+
+}
+footer{
+    clear: both;
+    width: auto;
+    height: 120px;
+    padding: 15px;
+    border: 3px solid #E3E3E3;
+    color: #fff;
+    background-image: url(../images/bar_background.png);
+    
+    
+}
+/* #F93 */
+/* #C60 */
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: auto;
+}
+#cssmenu ul {
+  background: #ff9933;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+}
+#cssmenu li {
+  float: left;
+  padding: 0px 0px 0px 15px;
+}
+#cssmenu li a {
+  color: #000;
+  display: block;
+  font-weight: normal;
+  line-height: 50px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#cssmenu li a:hover {
+  background: #cc6600;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+}
+#cssmenu ul li:hover a {
+  background: #cc6600;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cssmenu li ul {
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200px;
+  z-index: 200;
+}
+#cssmenu li:hover ul {
+  display: block;
+}
+#cssmenu li li {
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background: #ff9933;
+  /*this is where the rounded corners for the dropdown disappears*/
+
+}
+#cssmenu li:hover li a {
+  background: none;
+}
+#cssmenu li ul a {
+  display: block;
+  height: 50px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover a {
+  border: 0px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #cc6600;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+}
+#makeMeScrollable div.scrollableArea *
+{
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  /* If you don't want the images in the scroller to be selectable, try the following
+    block of code. It's just a nice feature that prevent the images from
+    accidentally becoming selected/inverted when the user interacts with the scroller. */
+  
+}

@@ -1,0 +1,55 @@
+<<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <title></title>
+</head>
+<body>
+
+<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info " data-toggle="modal" data-target="#myModal">add new announcement</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <form role="form" action="newann.php" method="post">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Announcement</h4>
+        </div>
+        
+        <div class="modal-body">
+            
+            
+              <textarea  rows="5" cols="69" colid="comment" name="announcement"   placeholder="type any thing you want to share with your students"></textarea>
+          
+            
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-default" >Upload</button>
+        </div>
+      </div>
+      </form>
+      
+    </div>
+  </div>
+  
+</div>
+  		<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+
+</script></body>
+</html
